@@ -1,0 +1,81 @@
+*{
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+
+
+button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    height: 30px;
+    border-radius: 7px;
+
+}
+select{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 1%;
+    height: 30px;
+    border-radius: 7px
+}
+
+input{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    height: 30px;
+    border-radius: 7px;
+}
+.encabezado{
+    height: 80px;
+    width: 100%;
+    font-size: 25px;
+    background-color: #48e;
+    margin-top: -37px;
+    z-index: 100;
+}
+
+.nav2{
+    height: 80px;
+    width: 100%;
+    font-size: 25px;
+    background-color: #48e;
+    margin-top: -37px;
+    z-index: 100;
+}
+
+.titulo{
+    font-size: 25px;
+    color: #48e;
+    
+}
+
+.contenedorTextos{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin: 5%;
+    
+}
+
+#bdificultad{
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.contenedorTextos2{
+    display: block;
+    height: 30px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.crojo{
+    color: red;
+}

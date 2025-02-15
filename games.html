@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylosJuego.css">
+    <link rel="stylesheet" href="reset200802.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="encabezado"></div>
+    
+    <div class="contenedorTextos">
+        <h1 class="titulo" id="azul"></h1>
+        <h1 id="rojo" class="crojo"></h1>
+    </div >    
+    <div class="contenedorTextos2"><p class="parrafo"></p></div>
+    <div>
+        <select name="" id="">
+            <option value="5">5</option>
+            <option value="10">10</option>
+            <option value="20">20</option>
+        </select>
+        <button onclick="dificultad()" id="bdificultad">selecionar dificultad</button>
+    
+    </div>
+    <div></div>
+    <div>
+        <input type="number" id="numeroIngresado" placeholder="ingresa un numero">
+        <button onclick="validaIntento()" id="botonIntento" disabled>intento</button>
+        <button onclick="nuevoJuego()">Numevo Juego</button>
+        <br>
+    </div>
+    <h3></h3>
+    <button class="bInicio"><a href="index.html">inicio</a></button>
+    <script src="app.js"></script>
+</body>
+</html>

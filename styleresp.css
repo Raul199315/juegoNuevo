@@ -1,0 +1,130 @@
+*{
+    font-family: sans-serif;
+    font-weight: 100;
+}
+.nav__responsive-ul{
+display: none;
+}
+.nav{
+    background-color: #48e;
+}
+.nav__li:hover{
+    color: aquamarine;
+}
+
+.nav__li{
+    display: inline-block;
+    padding: 12px;
+    color: rgb(239, 239, 239);
+}
+.nav__li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+    
+.nav__li i{
+    box-sizing: border-box;
+    text-align: right;
+    margin-right: 5px;
+}
+    .nav__responsive-button-container{
+        position: absolute;
+        width: 100%;
+        font-size: 25px;
+        background-color: #48e;
+        margin-top: -37px;
+        z-index: 100;
+    }
+    .nav__responsive-button{
+        padding: 7px 0px;
+        text-align: right;
+        width: 100%;
+        
+    }
+    .inicio{
+        display:;
+        width: 100%;
+        height: 500px;
+        background-color: rgb(182, 197, 220);
+    }
+.butom{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    height: 30px;
+    border-radius: 7px;
+   
+}
+.hseccion{
+    height: auto;
+    width: auto;
+    color: rgb(17, 18, 18);
+    margin-left: auto;
+    margin-right: auto;
+ padding: 10px;
+}
+.h2{
+    width: 150px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.enviar{
+    height: 30px;
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+.pie{
+    width: 100%;
+    height: 200px;
+    background-color: #48e;
+}
+
+
+@media only screen and (max-width: 500px) {
+    .nav__ul {
+        display: none;
+    }
+    .nav__responsive-ul{
+        display: block;
+        position: absolute;
+        width: 100%;
+        margin-top: 37px;
+        padding-top: 27px;
+        height: 37px;
+}
+.nav__li-container {
+    position: relative;
+    top: -1000px;  
+    height: 100%;
+    background:  rgb(249, 249, 249);
+    transition: all 1s;
+    z-index: 1;
+}
+.nav{
+    height: 37px;
+    width: 100%;
+}
+.nav__responsive-li{
+    width: 100%; 
+    padding: 9px 20px;
+}
+.nav__responsive-li i{
+    
+    box-sizing: border-box;
+    text-align: center;
+    margin-right: 5px;
+    width: 30px;
+    color: rgb(0, 0, 0);
+}
+.nav__responsive-li a{
+    color: rgb(25, 27, 27);
+    text-decoration: none;
+}
+.nav__responsive-ul:hover > .nav__li-container{
+    top: 0%;
+}
+}
