@@ -90,6 +90,7 @@ intento = '';
 limpiarCaja()
 textos('h1',`Bienvenido al  Juego Adivina el numero Secreto`);
 textos('p','para jugar seleccina una dificultad')
+
 borrarFalla()
 
 }
@@ -99,24 +100,28 @@ borrarFalla()
 function dificultad(){
     let nivel = document.querySelector('select').value;
     numeroMaximo = nivel
-    if(nivel == 5){
+    if(nivel == 2){
         nivelDificultad =2
         textos('p',`para jugar ingresa un numero entre 1 y ${numeroMaximo} tienes ${nivelDificultad} intentos` );
         document.getElementById('botonIntento').removeAttribute('disabled');
+        textos('h3',``);
         generarNumero()
     }else{
-        if(nivel == 10){
+        if(nivel == 3){
             nivelDificultad =3
             textos('p',`para jugar ingresa un numero entre 1 y ${numeroMaximo} tienes ${nivelDificultad} intentos` );
             document.getElementById('botonIntento').removeAttribute('disabled');
+            textos('h3',``);
             generarNumero()
         }else{
             nivelDificultad =4
             textos('p',`para jugar ingresa un numero entre 1 y ${numeroMaximo} tienes ${nivelDificultad} intentos` );
             document.getElementById('botonIntento').removeAttribute('disabled');
+            textos('h3',``);
             generarNumero()
         }
     }
+    borrarFalla()
 
 }
 function limpiarCaja(){

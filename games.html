@@ -17,9 +17,9 @@
     <div class="contenedorTextos2"><p class="parrafo"></p></div>
     <div>
         <select name="" id="">
-            <option value="5">5</option>
-            <option value="10">10</option>
-            <option value="20">20</option>
+            <option value="2">facil entre 1 y 5</option>
+            <option value="3">normal entre 1 y 10</option>
+            <option value="4">dificil entre 1 y 20</option>
         </select>
         <button onclick="dificultad()" id="bdificultad">selecionar dificultad</button>
     
@@ -27,12 +27,15 @@
     <div></div>
     <div>
         <input type="number" id="numeroIngresado" placeholder="ingresa un numero">
-        <button onclick="validaIntento()" id="botonIntento" disabled>intento</button>
-        <button onclick="nuevoJuego()">Numevo Juego</button>
+        <button onclick="validaIntento()" id="botonIntento" disabled><img src="gamepad-solid.svg" alt="">intento</button>
         <br>
     </div>
     <h3></h3>
-    <button class="bInicio"><a href="index.html">inicio</a></button>
+    <div class="pie">
+        <button class="nuevoJuego" onclick="nuevoJuego()"><img src="reiniciar.svg" alt="">Numevo Juego</button>
+        <button class="bInicio"><a class="botonJugar" href="index.html"><img src="house-solid.svg" alt="">inicio</a></button>
+    </div>
+    
     <script src="app.js"></script>
 </body>
 </html>
