@@ -1,6 +1,16 @@
 *{
     font-family: sans-serif;
     font-weight: 100;
+    background-color: var(--colo--terciario);
+}
+.body{
+    background-color: var(--colo--terciario);
+}
+
+:root{
+    --colo--primario:#0B2C39;
+    --colo--segundario:#5F98AE;
+    --colo--terciario:#E5E7EB;
 }
 
 
@@ -12,7 +22,7 @@ button{
     margin-top: 50px;
     height: 30px;
     border-radius: 7px;
-    border: 3px solid rgb(39, 42, 46);
+    border: 3px solid var(--colo--segundario);
 
 }
 select{
@@ -32,12 +42,13 @@ input{
     margin-top: 20px;
     height: 30px;
     border-radius: 7px;
+    border: 2px solid var(--colo--segundario);
 }
 .encabezado{
     height: 80px;
     width: 100%;
     font-size: 25px;
-    background-color: rgb(36, 38, 41);
+    background-color: var(--colo--primario);
     margin-top: -37px;
     z-index: 100;
 }
@@ -68,6 +79,7 @@ input{
 #bdificultad{
     margin-top: 10px;
     border-radius: 10px;
+    
 }
 .contenedorTextos2{
     display: block;
@@ -114,4 +126,7 @@ a{
     border: 0px;
     height: 30px;
     width: 60px;
+}
+select{
+    border: 2px solid var(--colo--segundario);
 }
