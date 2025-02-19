@@ -130,8 +130,8 @@ function limpiarCaja(){
 
 
 generarNumero();
-textos('h1',`Bienvenido al  Juego Adivina el numero Secreto`);
-textos('p','para jugar seleccina una dificultad')
+textos('h1',`Bienvenido al  Juego Adivina el Numero Secreto`);
+textos('p','para jugar seleccina un nivel y preciona seleccionar el boton dificultad')
 console.log(intento);
 /*
 function numSecreto(){
